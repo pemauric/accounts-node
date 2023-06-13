@@ -77,8 +77,8 @@ function buildAccount() {
       }else {
         console.log(chalk.green('Parabéns, sua conta foi criada!'))
       }
-      
-
+        
+      operation() 
         
     fs.writeFileSync(
       `accounts/${accountName}.json`,
